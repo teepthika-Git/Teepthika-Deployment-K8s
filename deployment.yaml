@@ -21,7 +21,7 @@ spec:
         app: Greenpage
     spec:
       containers:
-        - name: my-yellow-container
+        - name: my-green-container
           image: longflew/ingress:GREENPAGE
           ports:
             - containerPort: 80
